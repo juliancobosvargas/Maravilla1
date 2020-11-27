@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".lugares2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btxtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFF"
+                android:textSize="30dp"
+                android:text="@string/tit2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/bimg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB1"
+                    app:srcCompat="@drawable/mrvb1" />
+
+                <TextView
+                    android:id="@+id/btxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/btxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB2" />
+
+                <ImageView
+                    android:id="@+id/bimg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB2"
+                    app:srcCompat="@drawable/mrvb2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/bimg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB3"
+                    app:srcCompat="@drawable/mrvb3" />
+
+                <TextView
+                    android:id="@+id/btxt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/btxt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB4" />
+
+                <ImageView
+                    android:id="@+id/bimg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB4"
+                    app:srcCompat="@drawable/mrvb4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/bimg5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB5"
+                    app:srcCompat="@drawable/mrvb5" />
+
+                <TextView
+                    android:id="@+id/btxt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/btxt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB6" />
+
+                <ImageView
+                    android:id="@+id/bimg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB6"
+                    app:srcCompat="@drawable/mrvb6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/bimg7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaB7"
+                    app:srcCompat="@drawable/mrvb7" />
+
+                <TextView
+                    android:id="@+id/btxt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvB7" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/abtnRegresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#F0F62A2A"
+                android:textColor="#FFF"
+                android:onClick="bRegresar"
+                android:text="@string/regresar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

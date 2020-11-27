@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".lugares3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ctxtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFF"
+                android:textSize="30dp"
+                android:text="@string/tit3"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cimg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC1"
+                    app:srcCompat="@drawable/mrvc1" />
+
+                <TextView
+                    android:id="@+id/ctxt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/ctxt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC2" />
+
+                <ImageView
+                    android:id="@+id/cimg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC2"
+                    app:srcCompat="@drawable/mrvc2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cimg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC3"
+                    app:srcCompat="@drawable/mrvc3" />
+
+                <TextView
+                    android:id="@+id/ctxt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/ctxt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5C1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC4" />
+
+                <ImageView
+                    android:id="@+id/cimg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC4"
+                    app:srcCompat="@drawable/mrvc4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cimg5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC5"
+                    app:srcCompat="@drawable/mrvc5" />
+
+                <TextView
+                    android:id="@+id/ctxt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/ctxt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC6" />
+
+                <ImageView
+                    android:id="@+id/cimg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC6"
+                    app:srcCompat="@drawable/mrvc6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cimg7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="maravillaC7"
+                    app:srcCompat="@drawable/mrvc7" />
+
+                <TextView
+                    android:id="@+id/ctxt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="#5E000000"
+                    android:textColor="#FFF5A1"
+                    android:textSize="20dp"
+                    android:text="@string/mrvC7" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/abtnRegresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#F0F62A2A"
+                android:textColor="#FFF"
+                android:onClick="cRegresar"
+                android:text="@string/regresar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

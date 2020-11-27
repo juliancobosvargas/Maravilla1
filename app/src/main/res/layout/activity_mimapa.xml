@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHibrido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="hibrido"
+            android:textSize="10dp"
+            android:background="#D3FF5722"
+            android:textColor="#FFF"
+            android:layout_margin="10dp"
+            android:text="hibrido" />
+
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#ABE91E63"
+            android:onClick="normal"
+            android:text="normal"
+            android:textColor="#FFF"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/btnSatelital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="satelital"
+            android:textSize="10dp"
+            android:background="#BF9C27B0"
+            android:textColor="#FFF"
+            android:layout_margin="10dp"
+            android:text="satelital" />
+
+        <Button
+            android:id="@+id/btnTerreno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="terreno"
+            android:textSize="10dp"
+            android:background="#BA8BC34A"
+            android:textColor="#FFF"
+            android:layout_margin="10dp"
+            android:text="terreno" />
+
+        <Button
+            android:id="@+id/btnRegresarr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="regresar"
+            android:textSize="10dp"
+            android:background="#D0E91E63"
+            android:textColor="#FFF"
+            android:layout_margin="10dp"
+            android:text="Regresar" />
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:context=".Mimapa" />
+</LinearLayout>
